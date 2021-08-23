@@ -20,6 +20,7 @@
 ## Pages
 
 ![image](https://user-images.githubusercontent.com/65916297/130521164-ecd91293-72bc-4173-ae16-34c74b00cd74.png)
-![image](https://user-images.githubusercontent.com/65916297/130521378-25b5560a-d3f5-415c-93b1-a1ea41d1a349.png)
+![image](https://user-images.githubusercontent.com/65916297/130521482-ef4b469e-64d0-4a29-a747-fa108ce206f0.png)
+
 
 
