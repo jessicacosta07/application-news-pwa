@@ -1,6 +1,7 @@
 import React, { memo, useEffect, useState } from 'react';
 import { Row, Col } from 'antd';
 import Api from '../api'
+import Economy from './components/Economy';
 
 function Home() {
     const [news, setNews] = useState([]);
@@ -10,11 +11,11 @@ function Home() {
         setNews({
             world: articles[0]?.value.value,
             economy: articles[1]?.value.value,
-            technology: articles[2]?.value.value
+            technology: articles[2]?.value.value,
         })
     }
     useEffect(() => {
-        setLoading(true);
+        setLoading(true)
         Promise.allSettled([
             Api.getNews('world'),
             Api.getNews('economy'),
@@ -22,8 +23,7 @@ function Home() {
         ])
             .then(handleNews)
     }, [])
-
-    if(loading) return <div>Carregando</div>
+    if (loading) return <div>Carregando</div>
     return (
         <div>
             <Row gutter={[16, 16]}>
@@ -35,6 +35,7 @@ function Home() {
             <Row gutter={[16, 16]}>
                 <Col span={24} md={16}>
                     <h2>Economy</h2>
+                    <Economy values={news?.economy} />
                 </Col>
             </Row>
             <hr />
