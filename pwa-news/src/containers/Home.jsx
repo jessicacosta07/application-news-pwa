@@ -6,7 +6,12 @@ function Home() {
     const [news, setNews] = useState([]);
     const [loading, setLoading] = useState(false);
     const handleNews = (articles) => {
-        console.log('ar', articles)
+        setLoading(false)
+        setNews({
+            world: articles[0]?.value.value,
+            economy: articles[1]?.value.value,
+            technology: articles[2]?.value.value
+        })
     }
     useEffect(() => {
         setLoading(true);
@@ -17,6 +22,8 @@ function Home() {
         ])
             .then(handleNews)
     }, [])
+
+    if(loading) return <div>Carregando</div>
     return (
         <div>
             <Row gutter={[16, 16]}>
