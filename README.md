@@ -1,1 +1,1 @@
-# noticias-pwa
+# ReactJS news application using PWA
