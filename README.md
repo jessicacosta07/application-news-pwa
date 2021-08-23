@@ -16,3 +16,8 @@
 ## Run the app
 
 `http://localhost:3000`
+
+## Pages
+
+![image](https://user-images.githubusercontent.com/65916297/130521164-ecd91293-72bc-4173-ae16-34c74b00cd74.png)
+
