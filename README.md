@@ -1,6 +1,6 @@
 # ReactJS news application using PWA
 
-## Project developed by the lab of Digital Innovation One
+## Bootcamp LocalizaLabs React Developer Project - Digital Innovation One(DIO)
 
 ## Skills
 ![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
