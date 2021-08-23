@@ -20,4 +20,5 @@
 ## Pages
 
 ![image](https://user-images.githubusercontent.com/65916297/130521164-ecd91293-72bc-4173-ae16-34c74b00cd74.png)
+![image](https://user-images.githubusercontent.com/65916297/130521281-78a6bdf4-b38b-41c1-bd84-a22eeaf65f1f.png)
 
